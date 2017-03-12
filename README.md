@@ -1,6 +1,6 @@
 # Recipe Box
 
-This is the third project for freeCodeCamp's Data Visualization certificate.
+This is the [third project](https://www.freecodecamp.com/challenges/build-a-recipe-box) for freeCodeCamp's Data Visualization certificate.
 
 Completed On: 12 March 2017  
 
@@ -24,3 +24,5 @@ Build an app that is functionally similar to this: https://codepen.io/FreeCodeCa
 - All new recipes I add are saved in my browser's local storage. If I refresh the page, these recipes will still be there.
 
 ## My Work
+
+![Recipe Box](https://cdn.rawgit.com/ayoisaiah/recipe-box/0b340242/src/images/recipe-box.png)
