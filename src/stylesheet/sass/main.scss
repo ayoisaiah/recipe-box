@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+body {
+  background-color: #F2F2F2;
+  font-family: 'Lato', 'Roboto', sans-serif;
+}
+
+main {
+  width: 100%;
+  height: 100%;
+
+}
+
+.container {
+  padding-top: 25px;
+  max-width: 960px;
+}
+
+h1 {
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #3F4EBA;
+  font-family: 'Indie Flower', cursive;
+
+  @media screen and (max-width: 550px) {
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+  }
+}
+
+.card-title {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.7rem;
+  margin: 0;
+  font-weight: 400;
+}
+
+.card-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.chip {
+  height: 2.4rem;
+  margin: 3px;
+  font-size: 1.2rem;
+  background-color: #E8EAF7;
+
+  .btn.btn-clear::before {
+    font-size: 1.5rem;
+  }
+}
+
+.delete {
+  color: #D9534F !important;
+}
+
+.fab {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  height: 40px;
+
+  @media screen and (max-width: 550px) {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+footer {
+  margin: 50px auto 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+  small {
+    font-size: 1.5rem;
+
+    a {
+      text-decoration: none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .modal-container {
+    width: 64rem;
+  }
+}
